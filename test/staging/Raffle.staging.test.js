@@ -1,3 +1,9 @@
+// 1. Get new SubId for Chainlink VRF & Fund
+// 2. Deploy contract using SubId
+// 3. Register the contract with chainId VRF and It's subId
+// 4. Register the contract with ChainLink keepers.
+// 5. Run staging test.
+
 const { assert, expect } = require("chai")
 const { getNamedAccounts, ethers, network } = require("hardhat")
 const { developmentChains } = require("../../helper-hardhat-config")
